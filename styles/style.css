@@ -1,5 +1,4 @@
 /* ========= RESET ========= */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,8 +20,12 @@
 .header {
   display: flex;
   flex-direction: column;
+
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+
   padding: 30px 80px 40px;
-  overflow: hidden;
 }
 
 /* ========= NAV ========= */
@@ -30,9 +33,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 24px 0;
 }
 
+/* La clase DEBE existir, pero SIN width / height */
 .nav__logo {
   display: block;
 }
@@ -40,13 +45,14 @@
 .nav__links {
   display: flex;
   column-gap: 20px;
+
   list-style-type: none;
 }
 
 .nav__link {
   text-decoration: none;
   font-weight: bold;
-  color: #000;
+  color: #000000;
 }
 
 /* ========= HEADER CONTENT ========= */
@@ -54,6 +60,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
   column-gap: 32px;
 
   margin-top: 128px;
@@ -66,6 +73,7 @@
 
 .header__title {
   max-width: 635px;
+
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
@@ -76,6 +84,7 @@
 
 .header__description {
   max-width: 515px;
+
   font-size: 20px;
   line-height: 30px;
 
@@ -87,8 +96,12 @@
   max-width: 636px;
   width: 100%;
   height: auto;
+
   display: block;
 }
+
+/* ========= HEADER FOOTER ========= */
+/* ❗ NO se agregan estilos a .header__footer */
 
 .header__address {
   font-size: 16px;
@@ -108,20 +121,24 @@
 .staff__title {
   font-size: 32px;
   line-height: 44px;
-  text-align: center;
   font-weight: bold;
+
+  text-align: center;
+
   margin: 0 0 8px;
 }
 
 .staff__subtitle {
   font-size: 18px;
   line-height: 26px;
+
   text-align: center;
-  color: #555;
+  color: #555555;
+
   margin: 0 0 40px;
 }
 
-/* ========= CARDS CONTAINER ========= */
+/* ========= STAFF CARDS ========= */
 .staff__cards {
   max-width: 760px;
   margin: 0 auto;
@@ -139,9 +156,10 @@
 .card {
   width: 360px;
   height: 420px;
-  background-color: #ffffff;
 
+  background-color: #ffffff;
   border-radius: 2px;
+
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 
   padding: 40px;
@@ -150,29 +168,23 @@
   flex-direction: column;
 }
 
-/* ========= CARD TEXT ========= */
 .card__title {
   font-size: 20px;
   line-height: 26px;
+
   margin: 0 0 16px;
 }
 
 .card__text {
   font-size: 14px;
   line-height: 20px;
+
   margin: 0 0 24px;
 }
 
 .card__footer {
   font-size: 14px;
   line-height: 20px;
+
   margin-top: auto;
-  color: #888888;
-}
-
-/* ========= REQUIRED CLASSES (BRIEF) ========= */
-.header__link {
-}
-
-.header__footer {
 }
