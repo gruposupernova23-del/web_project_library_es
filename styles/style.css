@@ -37,7 +37,6 @@
   padding: 24px 0;
 }
 
-/* La clase DEBE existir, pero SIN width / height */
 .nav__logo {
   display: block;
 }
@@ -101,7 +100,7 @@
 }
 
 /* ========= HEADER FOOTER ========= */
-/* ❗ NO se agregan estilos a .header__footer */
+/* ❗ NO debe existir .header__footer en CSS */
 
 .header__address {
   font-size: 16px;
@@ -187,13 +186,4 @@
   line-height: 20px;
 
   margin-top: auto;
-}
-
-.header__link {
-}
-
-.header__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
