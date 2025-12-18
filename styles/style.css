@@ -99,12 +99,20 @@
   display: block;
 }
 
-/* ========= HEADER FOOTER ========= */
-/* ❗ NO debe existir .header__footer en CSS */
-
 .header__address {
   font-size: 16px;
   line-height: 20px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ========= STAFF SECTION ========= */
