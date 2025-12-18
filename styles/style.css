@@ -11,7 +11,7 @@
   max-width: 1600px;
   margin: 0 auto;
 
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -20,11 +20,9 @@
 .header {
   display: flex;
   flex-direction: column;
-
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-
   padding: 30px 80px 40px;
 }
 
@@ -33,24 +31,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 24px 0;
 }
 
 .nav__logo {
-  display: block;
+  width: 125px;
 }
 
 .nav__links {
   display: flex;
-  column-gap: 20px;
-  list-style-type: none;
+  gap: 20px;
+  list-style: none;
 }
 
 .nav__link {
   text-decoration: none;
   font-weight: bold;
-  color: #000000;
+  color: #000;
 }
 
 /* ========= HEADER CONTENT ========= */
@@ -58,9 +55,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
-  column-gap: 32px;
-
+  gap: 32px;
   margin-top: 128px;
   margin-bottom: 32px;
 }
@@ -71,22 +66,16 @@
 
 .header__title {
   max-width: 635px;
-
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-
-  margin-top: 0;
   margin-bottom: 32px;
 }
 
 .header__description {
   max-width: 515px;
-
   font-size: 20px;
   line-height: 30px;
-
-  margin-top: 0;
   margin-bottom: 32px;
 }
 
@@ -94,73 +83,67 @@
   max-width: 636px;
   width: 100%;
   height: auto;
-
-  display: block;
 }
 
-/* ========= HEADER FOOTER ========= */
-/* ❗ NO se agregan estilos a .header__footer ni .header__link */
+/* ========= HEADER FOOTER (NO MODIFICAR) ========= */
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
 
 .header__address {
   font-size: 16px;
   line-height: 20px;
 }
 
-/* ========= STAFF SECTION ========= */
+/* ========= STAFF ========= */
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
   padding: 80px 0;
 }
 
 .staff__title {
   font-size: 32px;
   line-height: 44px;
-  font-weight: bold;
-
   text-align: center;
-  margin: 0 0 8px;
+  margin-bottom: 8px;
 }
 
 .staff__subtitle {
   font-size: 18px;
   line-height: 26px;
-
   text-align: center;
-  color: #555555;
-
-  margin: 0 0 40px;
+  color: #555;
+  margin-bottom: 40px;
 }
 
-/* ========= STAFF CARDS ========= */
 .staff__cards {
   max-width: 760px;
   margin: 0 auto;
-
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 40px;
-
-  list-style-type: none;
-  padding-left: 0;
+  justify-content: center;
+  list-style: none;
 }
 
 /* ========= CARD ========= */
 .card {
   width: 360px;
   height: 420px;
-
-  background-color: #ffffff;
-  border-radius: 2px;
-
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-
   padding: 40px;
-
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
   display: flex;
   flex-direction: column;
 }
@@ -168,17 +151,17 @@
 .card__title {
   font-size: 20px;
   line-height: 26px;
-  margin: 0 0 16px;
+  margin-bottom: 16px;
 }
 
 .card__text {
   font-size: 14px;
   line-height: 20px;
-  margin: 0 0 24px;
+  margin-bottom: 24px;
 }
 
 .card__footer {
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
-  margin-top: auto;
 }
