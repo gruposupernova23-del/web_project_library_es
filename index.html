@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
     <div class="page">
-      <!-- HEADER -->
       <header class="header">
         <nav class="nav">
           <img
@@ -20,13 +20,15 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#staff">
-                Los preferidos de nuestro staff
-              </a>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestro staff</a
+              >
             </li>
-            <li><a class="nav__link" href="#">Eventos</a></li>
-            <li><a class="nav__link" href="#">Miembros</a></li>
-            <li><a class="nav__link" href="#">Contactos</a></li>
+            <li><a class="nav__link" href="#events">Eventos</a></li>
+            <li>
+              <a class="nav__link" href="#membership">Conviértete en miembro</a>
+            </li>
+            <li><a class="nav__link" href="#contacts">Contactos</a></li>
           </ul>
         </nav>
 
@@ -37,14 +39,15 @@
             </h1>
             <p class="header__description">
               ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
-              y amplía tus conocimientos, o simplemente ven a estudiar a este
-              lugar genial para estudiantes.
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
             </p>
           </div>
 
           <img
             src="./images/inside_the_library.png"
-            alt="Ilustración de la biblioteca Triple Peaks"
+            alt="Ilustración del interior de la biblioteca"
             class="header__image"
           />
         </div>
@@ -54,7 +57,6 @@
         </div>
       </header>
 
-      <!-- MAIN -->
       <main class="content">
         <section class="staff" id="staff">
           <h2 class="staff__title">Los preferidos de nuestro staff</h2>
@@ -64,10 +66,14 @@
             <li class="card">
               <h3 class="card__title">Introducción a los algoritmos</h3>
               <p class="card__text">
-                Introducción a los algoritmos, o CLRS, abarca una serie de
-                algoritmos a lo largo de varios capítulos independientes.
+                Introducción clara y profunda a los algoritmos, conocida como
+                CLRS, que cubre una amplia variedad de técnicas y enfoques
+                fundamentales.
               </p>
-              <p class="card__footer">Cormen, Leiserson, Rivest, Stein</p>
+              <p class="card__footer">
+                Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
+                Clifford Stein
+              </p>
             </li>
 
             <li class="card">
@@ -76,25 +82,28 @@
                 (SICP)
               </h3>
               <p class="card__text">
-                Libro de programación de carácter general que utiliza Scheme
-                para ilustrar conceptos fundamentales.
+                Uno de los mejores libros para aprender los fundamentos de la
+                programación, ampliamente utilizado en cursos del MIT.
               </p>
-              <p class="card__footer">Abelson, Sussman, Sussman</p>
+              <p class="card__footer">
+                Harold Abelson, Gerald Jay Sussman, Julie Sussman
+              </p>
             </li>
 
             <li class="card">
               <h3 class="card__title">El programador limpio</h3>
               <p class="card__text">
-                Técnicas y herramientas de la verdadera artesanía de software.
+                Guía esencial para escribir código limpio y profesional,
+                enfocada en disciplina, ética y buenas prácticas.
               </p>
-              <p class="card__footer">Robert C. Martin</p>
+              <p class="card__footer">Steve McConnell</p>
             </li>
 
             <li class="card">
               <h3 class="card__title">Código completo</h3>
               <p class="card__text">
-                Manual práctico sobre construcción de software y buenas
-                prácticas.
+                Manual práctico sobre construcción de software que cubre
+                principios sólidos para escribir código de alta calidad.
               </p>
               <p class="card__footer">Steve McConnell</p>
             </li>
