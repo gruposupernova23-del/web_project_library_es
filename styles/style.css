@@ -37,7 +37,6 @@
   padding: 24px 0;
 }
 
-/* DEBE existir, sin width ni height */
 .nav__logo {
   display: block;
 }
@@ -100,7 +99,7 @@
 }
 
 /* ========= HEADER FOOTER ========= */
-/* ❗ NO EXISTE .header__footer EN EL CSS DEL STARTER */
+/* ❗ NO se agregan estilos a .header__footer ni .header__link */
 
 .header__address {
   font-size: 16px;
