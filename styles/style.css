@@ -10,7 +10,6 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -85,7 +84,7 @@
   height: auto;
 }
 
-/* ========= HEADER FOOTER (NO MODIFICAR) ========= */
+/* ========= HEADER FOOTER (STARTER – NO TOCAR) ========= */
 .header__footer {
   display: flex;
   justify-content: space-between;
