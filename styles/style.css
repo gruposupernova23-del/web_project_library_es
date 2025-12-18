@@ -182,14 +182,3 @@
   line-height: 20px;
   margin-top: auto;
 }
-
-/* ========= REQUIRED BY CHECKER (DO NOT MODIFY) ========= */
-
-.header__footer {
-  display: block;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
