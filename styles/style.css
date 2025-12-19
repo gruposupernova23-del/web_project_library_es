@@ -90,6 +90,17 @@
   display: block;
 }
 
+.header__footer {
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+
 .header__address {
   font-size: 16px;
   line-height: 20px;
