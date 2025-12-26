@@ -317,3 +317,134 @@
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+/* ========= FOOTER ========= */
+.footer {
+  background-color: #0a2850;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 60px 80px;
+}
+
+/* ========= FOOTER COLUMNS ========= */
+.footer__columns {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* ========= FOOTER COLUMN ========= */
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Primera columna a la izquierda */
+.footer__column:first-child {
+  margin-right: auto;
+}
+
+/* Separación entre columnas */
+.footer__column:not(:first-child) {
+  margin-left: 80px;
+}
+
+/* ========= LOGO ========= */
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* ========= HEADINGS ========= */
+.footer__column-heading {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* ========= HOURS ========= */
+.footer__column_content_hours p {
+  margin: 0 0 16px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* ========= SOCIAL LIST ========= */
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 10px;
+}
+
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* ========= SOCIAL ICON ========= */
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* ========= COPYRIGHT ========= */
+.footer__copyright {
+  margin-top: 60px;
+  font-size: 16px;
+  line-height: 20px;
+}
