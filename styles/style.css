@@ -384,6 +384,12 @@
   flex-direction: column;
 }
 
+.footer__column_content_hours {
+}
+
+.footer__column_content_social {
+}
+
 /* Primera columna a la izquierda */
 .footer__column:first-child {
   margin-right: auto;
